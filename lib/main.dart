@@ -1,4 +1,4 @@
-import 'package:cinema_online_ticket_booking_app/features/home_pages/presentation/welcome_page.dart';
+import 'package:cinema_online_ticket_booking_app/features/home_pages/presentation/dice_roller.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Cinema Online Ticket Booking App',
-        home: WelcomePage()
+        home: const DiceRoller()
     );
   }
 }
